@@ -55,7 +55,7 @@ body { background: #181d21; }
 header {
    height: 54px;
    width: 100%;
-   background: #13171B;
+   background: #a3baea;
    position: fixed;
    left: 0;
    top: 0;
@@ -64,9 +64,9 @@ header {
 
 /* header logo */
 header .logo {
-   margin-left: 36px;
+   /*margin-left: 36px;*/
    margin-right: 20px;
-   margin-top: 13px;
+   /*margin-top: 13px;*/
    float: left;
    width: auto;
    z-index: 991;
@@ -100,7 +100,7 @@ header .header-social li {
    margin-right: 20px;
 }
 header .header-social li a { color: #fff; }
-header .header-social li a:hover { color: #11ABB0; }
+header .header-social li a:hover { color: #1d1b84; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -168,7 +168,7 @@ ul.nav li.current button { color: #fff; }
 
 #hero {
    padding-top: 66px;
-   background: #23292f url(img/hero-bg.png);
+   background: #a3baea url(img/hero-bg.png);
    overflow: hidden;
 }
 
@@ -178,7 +178,7 @@ ul.nav li.current button { color: #fff; }
 (min-resolution: 192dpi) {
 
 	#hero {
-		background: #23292f url(img/hero-bg_@2X.png);
+		background: #a3baea url(img/hero-bg.png) ;
 		background-size: 200px 200px;
 	}
 
@@ -188,7 +188,7 @@ ul.nav li.current button { color: #fff; }
 
 /* Hero Text */
 .hero-text {
-	color: #676e73;
+	color: #ffffff;
    width: 83%;
    text-align: center;
    margin: 54px auto 24px auto;
@@ -201,7 +201,7 @@ ul.nav li.current button { color: #fff; }
    text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
 }
 .hero-text h1 span,
-.hero-text a { color: #11ABB0; }
+.hero-text a { color: #1d1b84; }
 .hero-text p {
    font: 16px/30px 'Open Sans', sans-serif;
    padding: 0;
@@ -213,10 +213,15 @@ ul.nav li.current button { color: #fff; }
 .hero-image {
    width: 100%;
    margin: 0 auto;
+   display: flex;
+   justify-content: center;
+
 }
 .hero-image img {
-   vertical-align: bottom;
+   vertical-align: middle;
    display: block;
+   max-width: 200px;
+   max-height: 200px;
 }
 
 /* Hero CTA Buttons */
@@ -683,7 +688,7 @@ ul.features li:nth-child(even) { }
 }
 
 #subscribe a, #subscribe a:visited  { color: #fff; }
-#subscribe a:hover, #subscribe a:focus { color: #11ABB0; }
+#subscribe a:hover, #subscribe a:focus { color: #1d1b84; }
 
 #subscribe h1 { color: #fff; }
 #subscribe p {
@@ -930,7 +935,7 @@ footer .copyright {
 	box-shadow: 0 0 2.5em rgba( 0, 0, 0, .5 ); /* 40 */
 }
 a#imagelightbox-close { color: #333; }
-a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #11ABB0; }
+a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #1d1b84; }
 
 /* lightbox caption */
 #imagelightbox-caption {
