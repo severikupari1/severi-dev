@@ -1,5 +1,5 @@
 import React from "react"
-import { AnchorLink } from "gatsby-plugin-anchor-links"
+// import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 import scrollTo from "gatsby-plugin-smoothscroll"
 
@@ -12,23 +12,14 @@ export default () => {
   return (
     <footer>
       <div className="row">
-        <div className="six columns info">
-
-          <div className="footer-logo">
-            <AnchorLink to="/">
-              <img src={ footer.logo } alt="" />
-            </AnchorLink>
-          </div>
-
-          <p>{ footer.text }</p>
+        <div className="four columns">
 
         </div>
-
-        <div className="six columns right-cols">
+        <div className="four columns right-cols">
           <div className="row">
             <div className="columns">
               <FontAwesomeIcon icon={ faMapMarkerAlt } />
-              <h3 className="address">Come Visit</h3>
+              <h3 className="address">{ address.header }</h3>
               <p>
                 { address.line1 }<br />
                 { address.line2 }<br />
@@ -38,7 +29,7 @@ export default () => {
 
          <div className="columns">
            <FontAwesomeIcon icon={ faUsers } />
-           <h3 className="social">socialize</h3>
+           <h3 className="social">{footer.socialHeader}</h3>
            <ul>
              { social.map(mySocial =>
                <li><a href={ mySocial.url }>

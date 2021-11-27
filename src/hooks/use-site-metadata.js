@@ -25,8 +25,10 @@ export const useSiteMetadata = () => {
             footer{
               text
               logo
+              socialHeader
             }
             address{
+              header
               line1
               line2
               line3

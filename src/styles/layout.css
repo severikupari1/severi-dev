@@ -66,11 +66,11 @@ header {
 header .logo {
    /*margin-left: 36px;*/
    margin-right: 20px;
-   /*margin-top: 13px;*/
+   margin-top: -8px;
    float: left;
    width: auto;
    z-index: 991;
-
+    transform: scale(1.5);
    /* add position relative since z-index only applies to
    elements that have been given an explicit position */
    position: relative;
@@ -762,8 +762,14 @@ footer .footer-logo a {
    margin-left: 3px;
 }
 footer .footer-logo a img {
-   height: 24px;
-   width: 92px;
+   height: 150px;
+   width: 100%;
+
+}
+
+footer .footer-logo{
+    display: flex;
+    justify-content: center;
 }
 
 footer .right-cols .columns {

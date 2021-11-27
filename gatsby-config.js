@@ -17,8 +17,8 @@ module.exports = {
     sections: [
       `hero`,
       `features`,
-      // `pricing`,
-      `call-to-action`,
+      `pricing`,
+      // `call-to-action`,
       // `screenshots`,
       `testimonials`,
       // `subscribe`
@@ -26,41 +26,37 @@ module.exports = {
 
     /* Configure the navigation menu */
     menuItems: [
-      {path: 'features', label: 'Features'},
-      // {path: 'pricing', label: 'Pricing'},
+      {path: 'features', label: 'Palvelut'},
+      {path: 'pricing', label: 'Hinnasto'},
       // {path: 'screenshots', label: 'Screenshots'},
-      {path: 'testimonials', label: 'Testimonials'},
+      {path: 'testimonials', label: 'Referenssit'},
       // {path: 'subscribe', label: 'Subscribe'},
     ],
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */
     social: [
-      { service: `Facebook`,
-        url : `https://facebook.com/styleshout`,
-        fa: `facebook` },
-      { service: `Twitter`,
-        url : `https://twitter.com/styleshout`,
-        fa: `twitter` },
       { service: `GitHub`,
-        url : `https://github.com/desmukh/gatsby-starter-woo`,
+        url : `https://github.com/severikupari1`,
         fa: `github` },
     ],
 
     /* Path to favicon and logo (located inside the 'static' folder) */
     favicon: `favicon.png`,
-    logo: `/images/logo-header.svg`,
+    logo: `/images/logo.svg`,
 
     /* Logo and text to show in footer */
     footer: {
       logo: `/images/logo.svg`,
-      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
+      text: `Severi Kupari logo`,
+      socialHeader: `Sosiaalinen media`
     },
 
     /* Address and contact info to show in footer */
     address: {
-      line1: `1600 Amphitheatre Parkway`,
-      line2: `Mountain View, CA`,
-      line3: `94043 US`,
+      header: `Sijainti`,
+      line1: `Kuopio`,
+      line2: ``,
+      line3: ``,
     },
     contacts: [
       { text: `647.343.8234`, url: `tel:6473438234` },

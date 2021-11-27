@@ -295,7 +295,7 @@
    }
 
    /* Go To Top Button */
-   #go-top { margin-left: -22px; }
+   /*#go-top { margin-left: -22px; }*/
    #go-top a {
    	width: 54px;
    	height: 54px;
