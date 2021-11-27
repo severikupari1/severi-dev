@@ -1,63 +1,50 @@
-title: Pricing Tables.
-body: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+title: Verkkosivu paketit
+body: Perus verkkosivupaketin hintaan kuuluu perusrungossa oleva responsiivinen, moitteettomasti mobiilissa sekä tietokoneella toimiva nopea sivusto, kevyttä hakukoneoptimointia, upotukset (mahdollisiin) sosiaalisiin medioihin, yhteydenottotoiminnallisuus ja ulkoasun muokkaus asiakkaan toiveiden mukaan.
+  Keskisuuri verkkosivupaketti sisältää käyttäjän itsenäisen sivujen muokkaus mahdollisuuden, esim blogin ylläpidon, voit lisätä kuvia ja muokata verkkosivuston tekstejä. Opastan mielelläni sivuston muokkaamiseen, näin sivuston tietoja voi myöhemmin itse päivittää ilman koodaustaitoa.
+  Domain (verkkotunnus) tulee lisämaksuna, jos tätä ei jo ole (.com-pääte n.30e/2v).
+  Sivuston ylläpito on ilmaista 100GB saakka, tämä tarkoittaa käytännössä yli 10 000 kuukausittaista vierailija.
+  Tämän jälkeen ylläpitokustannus on 20e/100GB.
 plans:
   -
-    title: Starter
+    title: Perus verkkosivupaketti
     fa: cog
-    price: FREE
-    per: per month
+    price: Alkaen 500 €
+    per: Alv. 0%
     features:
-      - 1GB Storage
-      - 5GB Bandwidth
-      - 2 Domains
-      - 3 Databases
-      - 1 FTP Account
-      - 25 Email Accounts
+      - Responsiivinen
+      - Kevyt hakukoneoptimointi
+      - Kevyt nopeusoptimointi
+      - Upotukset sosiaalisiin medioihin
+      - Yhteydenottotoiminnallisuus
+      - Ulkoasun muokkaus asiakkaan toiveiden mukaisesti
     signup:
-      label: Sign Up
+      label: Pyydä tarjous
       to: '#'
   -
-    title: Standard
+    title: Keskisuuri verkkosivupaketti
     fa: thumbs-up
-    price: $9.99
-    per: per month
+    price: Alkaen 850 €
+    per: Alv. 0%
     features:
-      - 3GB Storage
-      - 10GB Bandwidth
-      - 3 Domains
-      - 5 Databases
-      - 3 FTP Account
-      - 30 Email Accounts
+      - Responsiivinen
+      - Laaja hakukoneoptimointi
+      - Laaja nopeusoptimointi
+      - Upotukset sosiaalisiin medioihin
+      - Yhteydenottotoiminnallisuus
+      - Ulkoasun räätälöinti asiakkaan toiveiden mukaisesti
+      - Sivuston tekstien ja kuvien muokkaus mahdollisuus itsenäisesti
+      - Käyttäjä ystävällinen julkaisujärjestelmä
+      - Kieliversioidut sivut, esim suomi ja englanti
     signup:
-      label: Sign Up
+      label: Pyydä tarjous
       to: '#'
   -
-    title: Premium
+    title: Räätälöity verkkosivupaketti
     fa: star
-    price: $19.99
-    per: per month
+    price: Pyydä tarjous!
+    per: Alv. 0%
     features:
-      - 10GB Storage
-      - 25GB Bandwidth
-      - 5 Domains
-      - 10 Databases
-      - 10 FTP Account
-      - 50 Email Accounts
+      -
     signup:
-      label: Sign Up
-      to: '#'
-  -
-    title: Ultimate
-    fa: trophy
-    price: $29.99
-    per: per month
-    features:
-      - 30GB Storage
-      - Unlimited Bandwidth
-      - 10 Domains
-      - 15 Databases
-      - 10 FTP Account
-      - 50 Email Accounts
-    signup:
-      label: Sign Up
+      label: Pyydä tarjous
       to: '#'

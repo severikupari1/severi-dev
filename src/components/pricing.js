@@ -18,9 +18,9 @@ export default () => {
       </div>
 
       <div className="row">
-        <div className="pricing-tables bgrid-quarters s-bgrid-halves">
+        <div className="pricing-tables align-center ">
           { content.plans.map((plan, index) =>
-            <div className="column">
+            <div className="four columns">
               <div className="price-block">
                 <h3 className="plan-title">
                   <i className="fa"><FontAwesomeIcon icon={ plan.fa } /></i>
@@ -32,9 +32,10 @@ export default () => {
                 </p>
 
                 <ul className="features">
-                  { plan.features.map((value, index) =>
-                    <li>{ value }</li>
-                  )}
+                  { plan.features.map((value, index) => {
+                      return <li>{ value } <hr className={"style-two"}/></li>
+                    })
+                  }
                 </ul>
                 <footer className="plan-sign-up">
                   <Link className="button" to={ plan.signup.to }>
