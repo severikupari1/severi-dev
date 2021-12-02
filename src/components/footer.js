@@ -41,7 +41,7 @@ export default () => {
 
           <div className="columns last">
             <FontAwesomeIcon icon={ faEnvelope } />
-             <h3 className="contact">Contact Us</h3>
+             <h3 className="contact">{footer.contactHeader}</h3>
              <ul>
                { contacts.map((contact, index) =>
                  <li><a href={ contact.url }>{ contact.text }</a></li>

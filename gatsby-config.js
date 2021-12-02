@@ -17,10 +17,10 @@ module.exports = {
     sections: [
       `hero`,
       `features`,
+      `testimonials`,
       `pricing`,
       // `call-to-action`,
       // `screenshots`,
-      `testimonials`,
       // `subscribe`
     ],
 
@@ -48,7 +48,8 @@ module.exports = {
     footer: {
       logo: `/images/logo.svg`,
       text: `Severi Kupari logo`,
-      socialHeader: `Sosiaalinen media`
+      socialHeader: `Sosiaalinen media`,
+      contactHeader: `Yhteystiedot`
     },
 
     /* Address and contact info to show in footer */

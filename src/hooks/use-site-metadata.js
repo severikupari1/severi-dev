@@ -26,6 +26,7 @@ export const useSiteMetadata = () => {
               text
               logo
               socialHeader
+              contactHeader
             }
             address{
               header
