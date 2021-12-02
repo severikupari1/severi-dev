@@ -27,9 +27,9 @@ module.exports = {
     /* Configure the navigation menu */
     menuItems: [
       {path: 'features', label: 'Palvelut'},
+      {path: 'testimonials', label: 'Referenssit'},
       {path: 'pricing', label: 'Hinnasto'},
       // {path: 'screenshots', label: 'Screenshots'},
-      {path: 'testimonials', label: 'Referenssit'},
       // {path: 'subscribe', label: 'Subscribe'},
     ],
 
@@ -49,7 +49,8 @@ module.exports = {
       logo: `/images/logo.svg`,
       text: `Severi Kupari logo`,
       socialHeader: `Sosiaalinen media`,
-      contactHeader: `Yhteystiedot`
+      contactHeader: `Yhteystiedot`,
+      copyrightText: `2021 Severi Kupari`,
     },
 
     /* Address and contact info to show in footer */
@@ -60,9 +61,8 @@ module.exports = {
       line3: ``,
     },
     contacts: [
-      { text: `647.343.8234`, url: `tel:6473438234` },
-      { text: `123.456.7890`, url: `tel:1234567890`},
-      { text: `someone@woosite.com`, url: `mailto:someone@woo.com`},
+      { text: `040 5423317`, url: `tel:+358405423317` },
+      { text: `severikupari1@gmail.com`, url: `mailto:severikupari1@gmail.com`},
     ],
   },
   plugins: [ `gatsby-plugin-anchor-links`, `gatsby-plugin-smoothscroll`, `react-scrollspy` ],

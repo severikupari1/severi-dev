@@ -1005,3 +1005,39 @@ a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #1d1b84; }
 	}
 
 }
+
+
+
+
+/* CUSTOM */
+
+.image-container {
+    /*position: relative;*/
+    width: 360px;
+    /*height: 640px;*/
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0);
+    transform: rotate(-20deg) skew(25deg) scale(0.8);
+    transition: 0.5s;
+}
+.image-container img {
+    position: absolute;
+    width: 100%;
+    transition: 0.5s;
+}
+.image-container:hover img:nth-child(4) {
+    transform: translate(160px, -160px);
+    opacity: 1;
+}
+.image-container:hover img:nth-child(3) {
+    transform: translate(120px, -120px);
+    opacity: 0.8;
+}
+.image-container:hover img:nth-child(2) {
+    transform: translate(80px, -80px);
+    opacity: 0.6;
+}
+.image-container:hover img:nth-child(1) {
+    transform: translate(40px, -40px);
+    opacity: 0.4;
+}
