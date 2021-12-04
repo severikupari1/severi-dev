@@ -1,0 +1,40 @@
+title: Verkkosivu paketit
+body: Perus verkkosivupaketin hintaan kuuluu perusrungossa oleva responsiivinen, moitteettomasti mobiilissa sekä tietokoneella toimiva nopea sivusto, kevyttä hakukoneoptimointia, upotukset (mahdollisiin) sosiaalisiin medioihin, yhteydenottotoiminnallisuus ja ulkoasun muokkaus asiakkaan toiveiden mukaan.
+  Keskisuuri verkkosivupaketti sisältää käyttäjän itsenäisen sivujen muokkaus mahdollisuuden, esim blogin ylläpidon, voit lisätä kuvia ja muokata verkkosivuston tekstejä. Opastan mielelläni sivuston muokkaamiseen, näin sivuston tietoja voi myöhemmin itse päivittää ilman koodaustaitoa.
+  Domain (verkkotunnus) tulee lisämaksuna, jos tätä ei jo ole (.com-pääte n.30e/2v).
+  Sivuston ylläpito on ilmaista 100GB saakka, tämä tarkoittaa käytännössä yli 10 000 kuukausittaista vierailija.
+  Tämän jälkeen ylläpitokustannus on 20e/100GB.
+plans:
+  -
+    title: Perus verkkosivupaketti
+    fa: cog
+    price: 500
+    value: 1
+    per: Alv. 0%
+    features:
+      - ''
+    signup:
+      label: Pyydä tarjous
+      to: '#'
+  -
+    title: Keskisuuri verkkosivupaketti
+    fa: thumbs-up
+    price: 850
+    value: 2
+    per: Alv. 0%
+    features:
+      - ''
+    signup:
+      label: Pyydä tarjous
+      to: '#'
+  -
+    title: Räätälöity verkkosivupaketti
+    fa: star
+    price: Pyydä tarjous!
+    value: 3
+    per: Alv. 0%
+    features:
+      - ''
+    signup:
+      label: Pyydä tarjous
+      to: '#'
