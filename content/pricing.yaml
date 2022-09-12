@@ -6,45 +6,53 @@ body: Perus verkkosivupaketin hintaan kuuluu perusrungossa oleva responsiivinen,
   Tämän jälkeen ylläpitokustannus on 20e/100GB.
 plans:
   -
-    title: Perus verkkosivupaketti
-    fa: cog
-    price: Alkaen 500 €
-    per: Alv. 0%
-    features:
-      - Responsiivinen
-      - Kevyt hakukoneoptimointi
-      - Kevyt nopeusoptimointi
-      - Upotukset sosiaalisiin medioihin
-      - Yhteydenottotoiminnallisuus
-      - Ulkoasun muokkaus asiakkaan toiveiden mukaisesti
-    signup:
-      label: Pyydä tarjous
-      to: '#'
-  -
-    title: Keskisuuri verkkosivupaketti
-    fa: thumbs-up
-    price: Alkaen 850 €
-    per: Alv. 0%
-    features:
-      - Responsiivinen
-      - Laaja hakukoneoptimointi
-      - Laaja nopeusoptimointi
-      - Upotukset sosiaalisiin medioihin
-      - Yhteydenottotoiminnallisuus
-      - Ulkoasun räätälöinti asiakkaan toiveiden mukaisesti
-      - Sivuston tekstien ja kuvien muokkaus mahdollisuus itsenäisesti
-      - Käyttäjä ystävällinen julkaisujärjestelmä
-      - Kieliversioidut sivut, esim suomi ja englanti
-    signup:
-      label: Pyydä tarjous
-      to: '#'
-  -
-    title: Räätälöity verkkosivupaketti
+    title: Verkkosivupaketti
     fa: star
-    price: Pyydä tarjous!
+    price: 500
     per: Alv. 0%
     features:
+      - Responsiivinen
+      - Yhteydenottotoiminnallisuus (SAMA)
+      - Ulkoasun muokkaus asiakkaan toiveiden mukaisesti (SAMA)
+    commonfeatures:
       -
+        label: Perustoiminnot
+        checkboxDefault: Responsiivinen
+        checkboxExtra: Upotukset sosiaalisiin medioihin
+        checkboxExtra2: Ulkoasun muokkaus asiakkaan toiveiden mukaisesti
+        isMultiCheckbox: 1
+        checkboxCount: 2
+        defaultprice: 500
+        extraprice: 500
+      -
+        label: Ulkoasun muokkaus asiakkaan toiveiden mukaisesti
+        checkboxDefault: yksi läpikäynti kerta
+        checkboxExtra: kolme läpikäynti kertaa
+        isMultiCheckbox: 1
+        defaultprice: 150
+        extraprice: 100
+      -
+        label: hakukoneoptimointi
+        checkboxDefault: Kevyt
+        checkboxExtra: Laaja
+        isMultiCheckbox: 1
+        defaultprice: 150
+        extraprice: 100
+      -
+        label: nopeusoptimointi
+        checkboxDefault: Kevyt
+        checkboxExtra: Laaja
+        isMultiCheckbox: 1
+        defaultprice: 150
+        extraprice: 100
+
+    extrafeatures:
+      -
+        label: Sivuston tekstien ja kuvien muokkaus mahdollisuus itsenäisesti
+        extraprice: 250
+      -
+        label: Kieliversioidut sivut, esim suomi ja englanti
+        extraprice: 100
     signup:
       label: Pyydä tarjous
       to: '#'

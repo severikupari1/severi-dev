@@ -1041,3 +1041,9 @@ a#imagelightbox-close:hover, a#imagelightbox-close:focus { color: #1d1b84; }
     transform: translate(40px, -40px);
     opacity: 0.4;
 }
+
+
+.multi-checkbox {
+    text-align: initial;
+    margin-left: 1rem;
+}

@@ -33,6 +33,15 @@ export default function Layout ({ children }){
     	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
       <link rel="shortcut icon" href={'/' + favicon } type="image/png" />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+
     </Helmet>
 
     <Header />
