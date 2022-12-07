@@ -16,9 +16,9 @@ module.exports = {
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
       `hero`,
+      `pricing`,
       `features`,
       `testimonials`,
-      `pricing`,
       // `call-to-action`,
       // `screenshots`,
       // `subscribe`
@@ -26,9 +26,9 @@ module.exports = {
 
     /* Configure the navigation menu */
     menuItems: [
+      {path: 'pricing', label: 'Hinnasto'},
       {path: 'features', label: 'Palvelut'},
       {path: 'testimonials', label: 'Referenssit'},
-      {path: 'pricing', label: 'Hinnasto'},
       // {path: 'screenshots', label: 'Screenshots'},
       // {path: 'subscribe', label: 'Subscribe'},
     ],
